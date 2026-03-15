@@ -8,6 +8,9 @@
 longchain/
 ├── longchain/       # LangChain 相关逻辑（链、提示、模型等）
 ├── fastapi/         # FastAPI 路由、接口与中间件
+├── rag/             # RAG 检索增强生成相关
+├── longgraph/       # LongGraph 图相关
+├── mcp/             # MCP 相关
 ├── environment.yml  # Conda 环境配置
 ├── requirements.txt # pip 依赖
 └── README.md
