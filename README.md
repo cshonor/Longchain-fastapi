@@ -7,7 +7,8 @@
 ```
 longchain/
 ├── longchain/       # LangChain 相关逻辑（链、提示、模型等）
-├── fastapi_app/     # FastAPI 应用与学习笔记（见 fastapi_app/README.md；勿使用顶层目录名 `fastapi/`）
+├── fastapi_app/     # FastAPI 可运行应用（勿使用顶层目录名 `fastapi/`）
+├── fastapi_learning_docs/  # FastAPI 系统化学习文档（见 fastapi_learning_docs/README.md）
 ├── rag/             # RAG 检索增强生成相关
 ├── graphrag/        # GraphRAG：图结构增强的检索与生成
 ├── scs/             # SCS 相关逻辑
