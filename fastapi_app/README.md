@@ -3,7 +3,7 @@
 本文档与 **`fastapi_app/`** 包同级：下面是 FastAPI 学习笔记与约定；可运行代码即本目录下的 Python 模块。仓库内请勿使用名为 `fastapi/` 的**顶层源码目录**：即使只有文档，也可能形成 namespace 包并遮蔽 PyPI 的 `fastapi`，导致无法 `from fastapi import FastAPI`。使用 `fastapi_app` 这类名称即可避免冲突。
 
 - **生产级系统化学习路径（分阶段日程、章节拆解、执行建议）**：见 [LEARNING_GUIDE.md](./LEARNING_GUIDE.md)。
-- **按模块分目录的笔记占位**：见 [docs/README.md](./docs/README.md)（`01_`…`07_` 与总表一致）。
+- **按模块分目录的笔记占位**：见 [`fastapi_learning_docs/README.md`](../fastapi_learning_docs/README.md)（`01_`…`07_` 与总表一致）。
 
 下文按**主题速查**整理：从路由与 Pydantic 起步，再到依赖注入、数据层、安全与工程化，最后到部署。
 

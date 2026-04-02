@@ -26,7 +26,7 @@
 
 FastAPI 的高吞吐与异步模型密切相关，建议先打地基。
 
-扩展阅读（协程概念沿革：yield / greenlet / gevent / asyncio）：[01_python_coroutines/python_coroutine_01_overview.md](./docs/01_python_coroutines/python_coroutine_01_overview.md)。各阶段文档目录见 [docs/README.md](./docs/README.md)。
+扩展阅读（协程概念沿革：yield / greenlet / gevent / asyncio）：[`01_python_coroutines/python_coroutine_01_overview.md`](../fastapi_learning_docs/01_python_coroutines/python_coroutine_01_overview.md)。各阶段文档目录见 [`fastapi_learning_docs/README.md`](../fastapi_learning_docs/README.md)。
 
 1. **FastAPI 异步代码、并发和并行**
    - **学什么**：区分进程、线程、协程；理解 `async`（异步函数）、`await`（等待可等待对象）。
