@@ -6,22 +6,19 @@
 
 ## 一、安装
 
-1) 安装 FastAPI
+### Conda（推荐先建环境）
+
+1) 创建并激活环境（示例用 Python 3.11）
 
 ```bash
-pip install fastapi
+conda create -n fastapi-demo python=3.11 -y
+conda activate fastapi-demo
 ```
 
-2) 安装 ASGI 服务器（用来启动服务）
+2) 安装依赖（纯 conda）
 
 ```bash
-pip install uvicorn
-```
-
-3) 开发环境一键装全（可选）
-
-```bash
-pip install "fastapi[all]"
+conda install -c conda-forge fastapi uvicorn -y
 ```
 
 ---
