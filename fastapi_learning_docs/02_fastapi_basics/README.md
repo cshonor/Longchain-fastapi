@@ -54,3 +54,5 @@
 - [路径 + Query 混用 Demo（可直接跑）](./fastapi_path_query_mix_demo.py)
 - [Path 路径参数与校验（Path / 顺序 / gt·ge·lt·le）](./11_path_params_path_core.md)
 - [Path(...) 核心 Demo（可直接跑）](./fastapi_path_params_core_demo.py)
+- [Pydantic 复杂模型与嵌套（Field / 集合 / HttpUrl / embed）](./12_pydantic_complex_nested_models.md)
+- [Pydantic 复杂 / 嵌套 Demo（可直接跑）](./fastapi_pydantic_complex_demo.py)
