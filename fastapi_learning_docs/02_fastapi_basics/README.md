@@ -56,3 +56,5 @@
 - [Path(...) 核心 Demo（可直接跑）](./fastapi_path_params_core_demo.py)
 - [Pydantic 复杂模型与嵌套（Field / 集合 / HttpUrl / embed）](./12_pydantic_complex_nested_models.md)
 - [Pydantic 复杂 / 嵌套 Demo（可直接跑）](./fastapi_pydantic_complex_demo.py)
+- [复杂数据类型（UUID / datetime / timedelta / Decimal 等）](./13_complex_data_types_stdlib.md)
+- [复杂数据类型 Demo（可直接跑）](./fastapi_complex_data_types_demo.py)
