@@ -64,3 +64,5 @@
 - [Header Demo（可直接跑）](./fastapi_header_demo.py)
 - [自定义响应状态码（status_code / Response / JSONResponse）](./16_response_status_code.md)
 - [自定义状态码 Demo（可直接跑）](./fastapi_response_status_demo.py)
+- [Request 对象（原始请求 / IP / body）](./17_request_object.md)
+- [Request 对象 Demo（可直接跑）](./fastapi_request_object_demo.py)
