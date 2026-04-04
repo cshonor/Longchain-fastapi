@@ -11,4 +11,6 @@
 
 - [安全机制简介（OAuth2、OIDC 与 OpenAPI 安全方案）](./01_security_introduction.md)
 - [OAuth2 密码流 + JWT 签发 Token](./02_oauth2_jwt_token.md)
+- [OAuth2 + JWT 完整登录验证流程](./03_oauth2_jwt_full_auth_flow.md)
 - [OAuth2 + JWT 签发 Demo（可直接跑）](./fastapi_security_oauth2_jwt_token_demo.py)
+- [OAuth2 + JWT 完整流程 Demo（可直接跑）](./fastapi_security_oauth2_jwt_full_demo.py)

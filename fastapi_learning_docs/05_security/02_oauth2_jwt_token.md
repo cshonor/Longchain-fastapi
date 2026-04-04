@@ -95,3 +95,5 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends()):
 ## 可运行示例
 
 见 [`fastapi_security_oauth2_jwt_token_demo.py`](./fastapi_security_oauth2_jwt_token_demo.py)。依赖见仓库根目录 **`requirements.txt`**。
+
+下一篇：[OAuth2 + JWT 完整登录验证流程](./03_oauth2_jwt_full_auth_flow.md)。

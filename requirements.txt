@@ -9,6 +9,7 @@ pydantic-settings>=2.0.0
 sqlalchemy>=2.0.0
 PyJWT>=2.8.0
 python-multipart>=0.0.9
+passlib[bcrypt]>=1.7.4
 
 # 环境变量
 python-dotenv>=1.0.0
