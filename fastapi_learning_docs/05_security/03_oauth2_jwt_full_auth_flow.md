@@ -205,3 +205,5 @@ async def read_users_me(current_user: UserInDB = Depends(get_current_active_user
 ## 可运行示例
 
 见 [`fastapi_security_oauth2_jwt_full_demo.py`](./fastapi_security_oauth2_jwt_full_demo.py)（账号 **`johndoe` / `secret`**）。
+
+下一篇：[OAuth2 scopes](./04_oauth2_scopes.md)。
