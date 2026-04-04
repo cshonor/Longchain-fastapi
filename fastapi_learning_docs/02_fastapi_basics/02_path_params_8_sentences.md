@@ -99,8 +99,28 @@ def read_file(file_path: str):
 ```
 
 对比（不加 :path）：
+
 路径：@app.get("/files/{file_path}")
 访问 /files/a/b/c.txt → 404 Not Found（因为 /a/b/c.txt 被当成多级路径，找不到路由）
+
+关键细节（必看）
+
+1. 为什么能包含斜杠？
+
+   
+普通路径参数（{item_id}）：遇到 / 就停止匹配
+:path 参数（{file_path:path}）：匹配到 URL 末尾，允许中间有多个 /FastAPI
+
+注意：不包含开头的 /
+
+访问 /files//home/user/file.txt（双斜杠）
+file_path 值为：home/user/file.txt（没有开头的 /）
+如果需要绝对路径（/home/user/file.txt），手动拼接：
+
+```python
+运行
+full_path = f"/{file_path}"
+```
 ---
 
 ## 6. 接口可以加标签、说明、弃用标记
