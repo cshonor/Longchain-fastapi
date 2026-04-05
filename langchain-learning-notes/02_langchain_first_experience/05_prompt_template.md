@@ -148,5 +148,7 @@ s2 = p.format(product=product)
 
 ## 延伸阅读
 
+- [自定义 `StringPromptTemplate`（实现 `format`、JSON 人物信息）](./10_custom_string_prompt_template.md)  
+- [模块化 Prompt（分层组合、非「一场景一模板」）](./11_modular_prompts.md)  
 - [基础链三要素 & 模块](./02_basic_chain_and_modules.md)  
 - [环境搭建 & 核心概念](./01_env_and_core_concepts.md)
