@@ -94,6 +94,12 @@ pip install langchain langchain-core langchain-community langchain-deepseek
 
 ---
 
+## 可运行 Demo
+
+仓库内脚本（任选配置密钥后运行）：[`demo_llm_chatmodel_compare.py`](./demo_llm_chatmodel_compare.py)
+
+---
+
 ## 延伸阅读
 
 - [概念篇：LLM 与 ChatModel](./03_llm_and_chatmodel.md)  
