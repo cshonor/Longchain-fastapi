@@ -16,3 +16,6 @@ passlib[bcrypt]>=1.7.4
 
 # 环境变量
 python-dotenv>=1.0.0
+
+# 将 LCEL 链暴露为 HTTP API（与笔记 08 配套）
+langserve>=0.3.0

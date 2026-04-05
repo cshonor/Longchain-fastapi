@@ -129,5 +129,6 @@ names = chain.invoke(
 ## 延伸阅读
 
 - [PromptTemplate / ChatPromptTemplate 与 LCEL](./05_prompt_template.md)  
+- [LCEL 组件组合与 Runnable 接口](./07_lcel.md)  
 - [基础链三要素 & 模块](./02_basic_chain_and_modules.md)  
 - 可运行示例：[demo_output_parser.py](./demo_output_parser.py)

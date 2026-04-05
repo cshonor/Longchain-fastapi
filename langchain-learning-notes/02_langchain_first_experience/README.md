@@ -16,3 +16,7 @@
 - [PromptTemplate / ChatPromptTemplate 与 LCEL](./05_prompt_template.md)
 - [输出解析器 Output Parser（自定义、`prompt | llm | parser`）](./06_output_parser.md)
 - [Output Parser + LCEL Demo](./demo_output_parser.py)
+- [LCEL 组件组合（Runnable、与 Prompt/模型/解析器衔接）](./07_lcel.md)
+- [LCEL Demo（invoke + stream）](./demo_lcel.py)
+- [部署与可观测性（LangServe / LangSmith）](./08_deployment_and_observability.md)
+- [LangServe 最小 HTTP 服务 Demo](./demo_langserve_app.py)
